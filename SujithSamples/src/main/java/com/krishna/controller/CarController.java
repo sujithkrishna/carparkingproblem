@@ -28,8 +28,6 @@ public class CarController {
 		System.out.println("After Adding map Value "+carObject.getCurrentBooking());
 		System.out.println(" Car added -- "+car.getCarRegNo());
 		carModel.addAttribute("carObject",carObject);
-		
-		
 		return "results.jsp";
 	}
 
